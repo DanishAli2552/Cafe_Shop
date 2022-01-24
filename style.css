@@ -21,11 +21,13 @@ html {
 
     --color-yellow: rgb(255, 217, 0);
     --color-shadow: rgba(10, 10, 10, 0.575);
+    
 }
 
 html[data-theme="dark"] {
     --color-white: rgb(34, 34, 34);
     --color-white-m: rgb(19, 18, 18);
+    
 
     --color-black: rgba(255, 255, 255, 0.897);
     --color-black-m: rgba(238, 232, 232, 0.897);
@@ -38,6 +40,8 @@ html[data-theme="dark"] {
     --color-yellow: gold;
 
     --color-shadow: rgba(214, 203, 203, 0.575);
+
+    
 }
 
 body {
@@ -77,6 +81,7 @@ i {
     background-size: cover;
     background-position: center;
 }
+
 .hambar-icon {
     position: fixed;
     z-index: 2000;
@@ -124,7 +129,7 @@ li:hover {
     position: absolute;
     height: 50%;
     margin: 10%;
-    margin-top: 5%;
+    margin-top: 3%;
     text-align: center;
 }
 .header-sub-heading {
@@ -327,8 +332,8 @@ input:checked + .slider:before {
 .product {
     background-color: black;
 
-    color: white;
-    height: 140vh;
+    color: #ffffff;
+    height: 155vh;
     position: relative;
     padding: 2rem 0;
 }
@@ -342,7 +347,7 @@ input:checked + .slider:before {
     padding: 2rem 0;
     position: absolute;
     margin-top: 500px;
-    height: 580px;
+    height: 420px;
 }
 .product-1 {
     width: 28%;
@@ -370,7 +375,7 @@ input:checked + .slider:before {
 
 .service {
     text-align: center;
-    padding: 3rem 0;
+    padding: 1rem 0;
     height: 135vh;
     color: var(--color-black);
 }
@@ -383,6 +388,7 @@ input:checked + .slider:before {
     width: 80%;
     left: 10%;
     margin-top: 0;
+    height: 580px;
 }
 .service-div {
     outline: 5px solid var(--color-yellow);
@@ -423,7 +429,7 @@ input:checked + .slider:before {
 .last {
     width: 100%;
     position: relative;
-    height: 80vh;
+    height: 85vh;
     padding: 1rem 0;
     background-color: var(--color-white);
     color: var(--color-black);
@@ -482,6 +488,7 @@ input:focus {
     color: var(--color-white);
     padding: 2rem 0;
 }
+
 
 /* header heading */
 @keyframes small-hading {
@@ -543,6 +550,7 @@ input:focus {
     }
 }
 @media (max-width: 1000px) {
+
     h1 {
         font-size: 3rem;
         /* font-size: 70%; */
@@ -556,7 +564,9 @@ input:focus {
     /* p{
         font-size:14px;
     } */
-
+.switch{
+        left: 83%;
+    }
     .skill-box1 {
         width: 100%;
         padding: 4rem 2rem;
@@ -619,14 +629,14 @@ input:focus {
         height: 50%;
     }
     .service {
-        height: 340vh;
+        height: 310vh;
     }
     .service-div {
-        height: 600px;
+        height: 500px;
         margin-bottom: 5rem;
     }
     .last {
-        height: 150vh;
+        height: 155vh;
     }
     .form {
         width: 80%;
