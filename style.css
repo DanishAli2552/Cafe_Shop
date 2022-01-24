@@ -328,7 +328,7 @@ input:checked + .slider:before {
     background-color: black;
 
     color: white;
-    height: 150vh;
+    height: 140vh;
     position: relative;
     padding: 2rem 0;
 }
@@ -528,6 +528,9 @@ input:focus {
 
 /* media qurees */
 @media (max-width: 1400px) {
+    body{
+        overflow-x: hidden;
+    }
     h1 {
         font-size: 3.2rem;
         /* font-size: 70%; */
@@ -592,22 +595,22 @@ input:focus {
     }
     .product-1 {
         position: relative;
-        width: 80%;
-        left: 10%;
+        width: 60%;
+        left: 20%;
         margin-left: 0;
         height: 400px;
     }
     .product-2 {
         position: relative;
-        width: 80%;
-        left: 10%;
+        width: 60%;
+        left: 20%;
         margin-left: 0;
         height: 400px;
     }
     .product-3 {
         position: relative;
-        width: 80%;
-        left: 10%;
+        width: 60%;
+        left: 20%;
         margin-left: 0;
         height: 400px;
     }
