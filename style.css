@@ -641,6 +641,7 @@ input:focus {
     .form-btn {
         padding: 1rem 1.2rem;
     }
+}
 @media (max-width: 500px) {
     .switch{
         left: 80%;
@@ -650,4 +651,3 @@ input:focus {
     }
 
     }
-}
